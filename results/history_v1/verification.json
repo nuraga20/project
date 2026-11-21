@@ -1,0 +1,29 @@
+{
+  "verified_on": "2026-11-20",
+  "python": "3.12.14",
+  "unit_tests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "notebook": {
+    "code_cells_executed_locally": 8,
+    "fresh_google_colab_execution_tested": false
+  },
+  "source_verification": {
+    "archive_sha256_verified": true,
+    "real_source_texts_matched": 384
+  },
+  "training_reproduction": {
+    "vocabulary_identical": true,
+    "idf_identical": true,
+    "coefficients_identical": true,
+    "threshold_identical": true
+  },
+  "data_audit": {
+    "contact_regex_matches": 0,
+    "relative_document_links_broken": 0,
+    "test_used_for_model_selection": false
+  },
+  "github_published": false,
+  "limitations": "Labels were AI-produced without independent human verification; real physical-marketplace test has zero positives."
+}

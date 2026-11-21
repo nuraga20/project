@@ -1,0 +1,48 @@
+{
+  "dataset_version": "2.0",
+  "verified_on": "2026-11-20",
+  "python": "3.12.14",
+  "composition": {
+    "total": 2000,
+    "real_ai_annotated": 1400,
+    "synthetic": 600,
+    "real_share": 0.7,
+    "synthetic_share": 0.3
+  },
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "notebook": {
+    "code_cells_executed_locally": 8,
+    "fresh_google_colab_execution_tested": false
+  },
+  "source_verification": {
+    "archive_sha256_verified": true,
+    "real_source_texts_matched": 1400
+  },
+  "synthetic_template_reproduction": {
+    "matching_rows": 408
+  },
+  "data_reproduction": {
+    "labeled_csv_and_splits_identical": true
+  },
+  "training_reproduction": {
+    "vocabulary_identical": true,
+    "idf_identical": true,
+    "coefficients_identical": true,
+    "threshold_identical": true
+  },
+  "data_audit": {
+    "email_matches": 0,
+    "handle_matches": 0,
+    "numeric_contact_like_matches": 1,
+    "numeric_match_review": "real_pla075239pla contains nonidentifying 1000000000%; normalized to [number] for inference. No phone contact found.",
+    "relative_document_links_broken": 0,
+    "test_used_for_v2_setting_selection": false,
+    "previous_test_protected": true,
+    "primary_new_test_count": 205
+  },
+  "github_published": false,
+  "limitations": "AI annotations without independent human verification; real physical-marketplace test has no positives; synthetic substitutions are grouped but correlated."
+}

@@ -1,0 +1,23 @@
+{
+  "model": "character TF-IDF + logistic regression",
+  "selected": {
+    "C": 2.0,
+    "class_weight": "balanced",
+    "threshold": 0.4,
+    "precision": 0.9345794392523364,
+    "recall": 0.9259259259259259,
+    "f1": 0.9302325581395349
+  },
+  "train_examples": 1425,
+  "validation_examples": 287,
+  "vocabulary_size": 19940,
+  "seed": 42,
+  "sklearn_version": "1.8.0",
+  "dataset_sha256": "f3101d4648519c5f43cdbf3468c3153ff92f0a50ae8b9cd8e7360783193d8fbe",
+  "config_sha256": "96cb940e88b1323c5d2259e0b19f17622d45140022509e5c40a5ec19179c088e",
+  "model_sha256": "d219adf6341b83c0b91b548c6fd5f399ab91499ea412e47452ed421bb34a607c",
+  "training_objective": "L2-regularized binary logistic loss; C is inverse regularization strength",
+  "validation_selection": "Max class-1 F1; ties: recall, precision, threshold close to 0.5, smaller C, no weights",
+  "test_used_for_selection": false,
+  "calibrated_for_marketplace_prevalence": false
+}

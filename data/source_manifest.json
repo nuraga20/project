@@ -1,0 +1,30 @@
+{
+  "source": "KazSAnDRA",
+  "authors": [
+    "Rustem Yeshpanov",
+    "Huseyin Atakan Varol"
+  ],
+  "repository": "https://github.com/IS2AI/KazSAnDRA",
+  "paper": "https://aclanthology.org/2024.lrec-main.844/",
+  "license": "CC-BY-4.0 for source dataset, as stated by authors",
+  "source_commit": "57b879a3febcac4ace9886ec0d4cce23321a2259",
+  "archive": "dataset/06_sc_train_ib.zip",
+  "archive_sha256": "70ff171a8d600c6ce89597cb68b968fb1d500a350a3c84a92879c6a0a0fabd5e",
+  "csv_member": "06_sc_train_ib.csv",
+  "downloaded_on": "2026-11-20",
+  "source_sentiment_labels_used_as_profanity_labels": false,
+  "real_annotation": "AI contextual annotations by ChatGPT/Codex assistant. No independent human gold-standard annotation.",
+  "synthetic_annotation": "192 original AI-authored examples plus 408 AI-authored template/substitution examples; all marked synthetic; all products from a template share a group.",
+  "selection": "V1 retained 384 contextual AI annotations. V2 inspected 350 lexicon candidates and 760 other comments; retained 324 candidates and 692 other comments. Four of those other comments were positive despite regex nonmatches. Added seeds 20261120/20261121/20261122.",
+  "limitations": [
+    "Positive real samples were mostly located using a limited profanity candidate lexicon.",
+    "Source platform moderation may suppress profanity in goods reviews.",
+    "No claim of representative profanity prevalence."
+  ],
+  "dataset_version": "2.0",
+  "total": 2000,
+  "real_count": 1400,
+  "synthetic_count": 600,
+  "review_record": "data/annotation_decisions_v2.csv records the 1016 additional contextual AI judgments.",
+  "prior_test_protection": "previous_split_membership.csv pins previous test groups to test. New-test metrics exclude every previously available example."
+}

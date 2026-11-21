@@ -1,0 +1,100 @@
+{
+  "seed": 42,
+  "total": 2000,
+  "exact_duplicates_removed": 0,
+  "groups": 1529,
+  "near_duplicate_pairs": 222,
+  "near_duplicate_threshold": 0.9,
+  "max_cross_split_similarity": 0.8040302522073705,
+  "split_counts": {
+    "train": 1425,
+    "test": 288,
+    "validation": 287
+  },
+  "class_counts": {
+    "0": 1246,
+    "1": 754
+  },
+  "breakdown": [
+    {
+      "split": "test",
+      "is_synthetic": 0,
+      "label": 0,
+      "count": 138
+    },
+    {
+      "split": "test",
+      "is_synthetic": 0,
+      "label": 1,
+      "count": 62
+    },
+    {
+      "split": "test",
+      "is_synthetic": 1,
+      "label": 0,
+      "count": 44
+    },
+    {
+      "split": "test",
+      "is_synthetic": 1,
+      "label": 1,
+      "count": 44
+    },
+    {
+      "split": "train",
+      "is_synthetic": 0,
+      "label": 0,
+      "count": 673
+    },
+    {
+      "split": "train",
+      "is_synthetic": 0,
+      "label": 1,
+      "count": 328
+    },
+    {
+      "split": "train",
+      "is_synthetic": 1,
+      "label": 0,
+      "count": 212
+    },
+    {
+      "split": "train",
+      "is_synthetic": 1,
+      "label": 1,
+      "count": 212
+    },
+    {
+      "split": "validation",
+      "is_synthetic": 0,
+      "label": 0,
+      "count": 135
+    },
+    {
+      "split": "validation",
+      "is_synthetic": 0,
+      "label": 1,
+      "count": 64
+    },
+    {
+      "split": "validation",
+      "is_synthetic": 1,
+      "label": 0,
+      "count": 44
+    },
+    {
+      "split": "validation",
+      "is_synthetic": 1,
+      "label": 1,
+      "count": 44
+    }
+  ],
+  "real_count": 1400,
+  "synthetic_count": 600,
+  "test_cohorts": {
+    "new_test": 205,
+    "legacy_test": 83
+  },
+  "previous_test_preserved": true,
+  "base_annotations_sha256": "846f2b7350da76bce5c43810359b7cec5ed2b5370801132e87d68e9c2d62a0f9"
+}

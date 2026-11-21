@@ -1,0 +1,1 @@
+"""Kazakh profanity classification project."""

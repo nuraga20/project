@@ -1,0 +1,168 @@
+{
+  "n": 288,
+  "positive_count": 106,
+  "negative_count": 182,
+  "precision": 0.8932038834951457,
+  "recall": 0.8679245283018868,
+  "f1": 0.8803827751196173,
+  "accuracy": 0.9131944444444444,
+  "confusion_matrix": [
+    [
+      171,
+      11
+    ],
+    [
+      14,
+      92
+    ]
+  ],
+  "matrix_order": "rows=true [0,1]; columns=predicted [0,1]",
+  "threshold": 0.4,
+  "dataset_sha256": "f3101d4648519c5f43cdbf3468c3153ff92f0a50ae8b9cd8e7360783193d8fbe",
+  "model_sha256": "d219adf6341b83c0b91b548c6fd5f399ab91499ea412e47452ed421bb34a607c",
+  "evaluation_scope": "Source-selected real reviews plus AI-authored contrast pairs; not a representative marketplace benchmark",
+  "subgroups": {
+    "real_only": {
+      "n": 200,
+      "positive_count": 62,
+      "negative_count": 138,
+      "precision": 0.9230769230769231,
+      "recall": 0.967741935483871,
+      "f1": 0.9448818897637795,
+      "accuracy": 0.965,
+      "confusion_matrix": [
+        [
+          133,
+          5
+        ],
+        [
+          2,
+          60
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]"
+    },
+    "synthetic_only": {
+      "n": 88,
+      "positive_count": 44,
+      "negative_count": 44,
+      "precision": 0.8421052631578947,
+      "recall": 0.7272727272727273,
+      "f1": 0.7804878048780488,
+      "accuracy": 0.7954545454545454,
+      "confusion_matrix": [
+        [
+          38,
+          6
+        ],
+        [
+          12,
+          32
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]"
+    },
+    "new_test_only": {
+      "n": 205,
+      "positive_count": 74,
+      "negative_count": 131,
+      "precision": 0.863013698630137,
+      "recall": 0.8513513513513513,
+      "f1": 0.8571428571428571,
+      "accuracy": 0.8975609756097561,
+      "confusion_matrix": [
+        [
+          121,
+          10
+        ],
+        [
+          11,
+          63
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]"
+    },
+    "new_real_only": {
+      "n": 145,
+      "positive_count": 44,
+      "negative_count": 101,
+      "precision": 0.9166666666666666,
+      "recall": 1.0,
+      "f1": 0.9565217391304348,
+      "accuracy": 0.9724137931034482,
+      "confusion_matrix": [
+        [
+          97,
+          4
+        ],
+        [
+          0,
+          44
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]"
+    },
+    "legacy_test": {
+      "n": 83,
+      "positive_count": 32,
+      "negative_count": 51,
+      "precision": 0.9666666666666667,
+      "recall": 0.90625,
+      "f1": 0.9354838709677419,
+      "accuracy": 0.9518072289156626,
+      "confusion_matrix": [
+        [
+          50,
+          1
+        ],
+        [
+          3,
+          29
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]"
+    },
+    "real_marketplace": {
+      "n": 102,
+      "positive_count": 0,
+      "negative_count": 102,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "accuracy": 0.9803921568627451,
+      "confusion_matrix": [
+        [
+          100,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]",
+      "note": "No positive labels: class-1 metrics are undefined; inspect false-positive count instead."
+    },
+    "real_appstore": {
+      "n": 98,
+      "positive_count": 62,
+      "negative_count": 36,
+      "precision": 0.9523809523809523,
+      "recall": 0.967741935483871,
+      "f1": 0.96,
+      "accuracy": 0.9489795918367347,
+      "confusion_matrix": [
+        [
+          33,
+          3
+        ],
+        [
+          2,
+          60
+        ]
+      ],
+      "matrix_order": "rows=true [0,1]; columns=predicted [0,1]"
+    }
+  },
+  "primary_evaluation": "new_test_only: excludes every example available in v1, whose test errors were previously inspected"
+}
